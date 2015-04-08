@@ -49,7 +49,7 @@
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-
+            <Button Height="300" Width="300" Tap="ShowInterstitialTapped">show interstitial</Button>
         </Grid>
 
         <adDuplex:AdControl

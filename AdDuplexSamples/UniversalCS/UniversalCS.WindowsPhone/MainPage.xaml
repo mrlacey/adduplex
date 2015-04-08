@@ -10,8 +10,13 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-
+<StackPanel>
+    
+    <Button Tapped="ShowInterstitialTapped">show interstitial</Button>
+    
         <ad:AdControl x:Name="adDuplexAd"
                 AppId="YOUR_AppId_HERE" />
+    
+    </StackPanel>
     </Grid>
 </Page>

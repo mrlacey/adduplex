@@ -35,5 +35,11 @@ namespace UniversalCS
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
         }
+
+        private async void ShowInterstitialTapped(object sender, TappedRoutedEventArgs e)
+        {
+            var interstitialAd = new AdDuplex.Universal.Controls.WinPhone.XAML.InterstitialAd("YOUR_AD_UNIT_ID");
+            await interstitialAd.ShowAdAsync();
+        }
     }
 }

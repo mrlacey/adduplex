@@ -78,6 +78,8 @@ namespace UniversalCS
             if (rootFrame.Content == null)
             {
 #if WINDOWS_PHONE_APP
+                AdDuplex.Universal.Controls.WinPhone.XAML.AdDuplexClient.Initialize("YOUR_APP_KEY");
+
                 // Removes the turnstile navigation for startup.
                 if (rootFrame.ContentTransitions != null)
                 {

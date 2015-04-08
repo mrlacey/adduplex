@@ -1,41 +1,34 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
+﻿
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
-using Microsoft.Phone.Shell;
-using SLWP81.Resources;
 
 namespace SLWP81
 {
     public partial class MainPage : PhoneApplicationPage
     {
-        // Constructor
+        AdDuplex.InterstitialAd interstitialAd;
+
         public MainPage()
         {
             InitializeComponent();
 
-            // Sample code to localize the ApplicationBar
-            //BuildLocalizedApplicationBar();
+            this.Loaded += MainPage_Loaded;
         }
 
-        // Sample code for building a localized ApplicationBar
-        //private void BuildLocalizedApplicationBar()
-        //{
-        //    // Set the page's ApplicationBar to a new instance of ApplicationBar.
-        //    ApplicationBar = new ApplicationBar();
+        void MainPage_Loaded(object sender, RoutedEventArgs e)
+        {
+            this.Loaded -= MainPage_Loaded;
 
-        //    // Create a new button and set the text value to the localized string from AppResources.
-        //    ApplicationBarIconButton appBarButton = new ApplicationBarIconButton(new Uri("/Assets/AppBar/appbar.add.rest.png", UriKind.Relative));
-        //    appBarButton.Text = AppResources.AppBarButtonText;
-        //    ApplicationBar.Buttons.Add(appBarButton);
+            // Don't try creating the ad until the page has loaded
+            interstitialAd = new AdDuplex.InterstitialAd("YOUR_AD_UNIT_ID");
 
-        //    // Create a new menu item with the localized string from AppResources.
-        //    ApplicationBarMenuItem appBarMenuItem = new ApplicationBarMenuItem(AppResources.AppBarMenuItemText);
-        //    ApplicationBar.MenuItems.Add(appBarMenuItem);
-        //}
+            // This is optional but should improve the performance when displaying the ad/image
+            interstitialAd.LoadAd();
+        }
+
+        private void ShowInterstitialTapped(object sender, System.Windows.Input.GestureEventArgs e)
+        {
+            interstitialAd.ShowAd();
+        }
     }
 }
