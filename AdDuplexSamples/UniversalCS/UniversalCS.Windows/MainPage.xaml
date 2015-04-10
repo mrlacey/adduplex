@@ -11,7 +11,7 @@
 
     <Grid>
         <xaml:AdControl x:Name="adDuplexAd"
-                AppId="YOUR_AppId_HERE" />
+                        AdUnitId="YOUR_AppId_HERE" />
 
         <!-- default = 250x250 -->
         <!-- 160x600, 250x125, 250x250, 292x60, 300x250, 500x130 and 728x90. -->
