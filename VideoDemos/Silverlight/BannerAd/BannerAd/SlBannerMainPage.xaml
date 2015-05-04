@@ -1,0 +1,33 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="BannerAd.SlBannerMainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    xmlns:adduplex="clr-namespace:AdDuplex;assembly=AdDuplex.WindowsPhone" 
+    shell:SystemTray.IsVisible="True">
+
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+
+        <TextBlock Text="MY SL WP8.1 APP - BANNER" Margin="24,17,0,28" Style="{StaticResource PhoneTextNormalStyle}" FontWeight="Medium" />
+
+        <TextBlock FontWeight="ExtraBlack"
+                    FontSize="72"
+                    TextWrapping="Wrap"
+                    Margin="24"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Text="Pretend that this is a real app" />
+
+        <adduplex:AdControl AdUnitId="149411" AppKey="cd066751-fc00-485d-87a4-ffbaf6c1ec42"
+                            VerticalAlignment="Bottom"/>
+    </Grid>
+
+</phone:PhoneApplicationPage>
