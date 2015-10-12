@@ -167,14 +167,14 @@
       <HintPath>..\packages\AdDuplexWP8.9.0.0.6\lib\wp8\AdDuplex.WindowsPhone.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Microsoft.AdMediator.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
-    <Reference Include="Microsoft.AdMediator.WindowsPhone8, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
-    <Reference Include="Microsoft.AdMediator.WindowsPhone8.AdDuplex, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AdMediator.WindowsPhone8.AdDuplex.2.0.1\lib\wp\Microsoft.AdMediator.WindowsPhone8.AdDuplex.dll</HintPath>
+    <Reference Include="Microsoft.AdMediator.Core, Version=2.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.AdMediator.WindowsPhone8, Version=2.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.AdMediator.WindowsPhone8.AdDuplex, Version=2.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AdMediator.WindowsPhone8.AdDuplex.2.1.0\lib\wp\Microsoft.AdMediator.WindowsPhone8.AdDuplex.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Microsoft.AdMediator.WindowsPhone81SL.MicrosoftAdvertising, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.AdMediator.WindowsPhone81SL.MicrosoftAdvertising.2.0.1\lib\wp\Microsoft.AdMediator.WindowsPhone81SL.MicrosoftAdvertising.dll</HintPath>
+    <Reference Include="Microsoft.AdMediator.WindowsPhone81SL.MicrosoftAdvertising, Version=2.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AdMediator.WindowsPhone81SL.MicrosoftAdvertising.2.1.1\lib\wp\Microsoft.AdMediator.WindowsPhone81SL.MicrosoftAdvertising.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.Advertising.Mobile, Version=8.1.50112.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">

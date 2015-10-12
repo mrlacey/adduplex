@@ -105,7 +105,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <SDKReference Include="AdDuplex.WinPhone.Extension, Version=9.0.0.3">
+    <SDKReference Include="AdDuplex.WinPhone.Extension, Version=9.0.0.4">
       <Name>AdDuplex SDK for Windows Phone 8.1 %28XAML%29</Name>
     </SDKReference>
   </ItemGroup>
