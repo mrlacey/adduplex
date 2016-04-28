@@ -11,14 +11,6 @@
           "lib/uap10.0/AdDuplex.winmd": {}
         }
       },
-      "Microsoft.AdMediator.Universal.AdDuplex/2.1.0": {
-        "compile": {
-          "lib/uap10.0/Microsoft.AdMediator.Universal.AdDuplex.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Microsoft.AdMediator.Universal.AdDuplex.dll": {}
-        }
-      },
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Collections": "[4.0.10, )",
@@ -1560,14 +1552,6 @@
         },
         "runtime": {
           "lib/uap10.0/AdDuplex.winmd": {}
-        }
-      },
-      "Microsoft.AdMediator.Universal.AdDuplex/2.1.0": {
-        "compile": {
-          "lib/uap10.0/Microsoft.AdMediator.Universal.AdDuplex.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Microsoft.AdMediator.Universal.AdDuplex.dll": {}
         }
       },
       "Microsoft.CSharp/4.0.0": {
@@ -3203,14 +3187,6 @@
           "lib/uap10.0/AdDuplex.winmd": {}
         }
       },
-      "Microsoft.AdMediator.Universal.AdDuplex/2.1.0": {
-        "compile": {
-          "lib/uap10.0/Microsoft.AdMediator.Universal.AdDuplex.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Microsoft.AdMediator.Universal.AdDuplex.dll": {}
-        }
-      },
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Collections": "[4.0.10, )",
@@ -4814,14 +4790,6 @@
         },
         "runtime": {
           "lib/uap10.0/AdDuplex.winmd": {}
-        }
-      },
-      "Microsoft.AdMediator.Universal.AdDuplex/2.1.0": {
-        "compile": {
-          "lib/uap10.0/Microsoft.AdMediator.Universal.AdDuplex.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Microsoft.AdMediator.Universal.AdDuplex.dll": {}
         }
       },
       "Microsoft.CSharp/4.0.0": {
@@ -6462,14 +6430,6 @@
           "lib/uap10.0/AdDuplex.winmd": {}
         }
       },
-      "Microsoft.AdMediator.Universal.AdDuplex/2.1.0": {
-        "compile": {
-          "lib/uap10.0/Microsoft.AdMediator.Universal.AdDuplex.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Microsoft.AdMediator.Universal.AdDuplex.dll": {}
-        }
-      },
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Collections": "[4.0.10, )",
@@ -8073,14 +8033,6 @@
         },
         "runtime": {
           "lib/uap10.0/AdDuplex.winmd": {}
-        }
-      },
-      "Microsoft.AdMediator.Universal.AdDuplex/2.1.0": {
-        "compile": {
-          "lib/uap10.0/Microsoft.AdMediator.Universal.AdDuplex.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Microsoft.AdMediator.Universal.AdDuplex.dll": {}
         }
       },
       "Microsoft.CSharp/4.0.0": {
@@ -9721,14 +9673,6 @@
           "lib/uap10.0/AdDuplex.winmd": {}
         }
       },
-      "Microsoft.AdMediator.Universal.AdDuplex/2.1.0": {
-        "compile": {
-          "lib/uap10.0/Microsoft.AdMediator.Universal.AdDuplex.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0/Microsoft.AdMediator.Universal.AdDuplex.dll": {}
-        }
-      },
       "Microsoft.CSharp/4.0.0": {
         "dependencies": {
           "System.Collections": "[4.0.10, )",
@@ -11340,17 +11284,6 @@
         "lib/uap10.0/AdDuplex/Themes/Generic.xbf",
         "lib/uap10.0/AdDuplex/Windows 10 SDK.xr.xml",
         "package/services/metadata/core-properties/5283ef7dfbbb40cab04b89fedbc7592b.psmdcp"
-      ]
-    },
-    "Microsoft.AdMediator.Universal.AdDuplex/2.1.0": {
-      "sha512": "C9GcHjLh8dparM5pVLvriBV5kmBc38tzNpIFq3PfVVGrQgRbUGoTjR0Egzer1c+aMv0LYlBVMfzniUvhJPqgcg==",
-      "type": "Package",
-      "files": [
-        "[Content_Types].xml",
-        "_rels/.rels",
-        "lib/uap10.0/Microsoft.AdMediator.Universal.AdDuplex.dll",
-        "Microsoft.AdMediator.Universal.AdDuplex.nuspec",
-        "package/services/metadata/core-properties/54d51b84d6d74068ac240144c537da78.psmdcp"
       ]
     },
     "Microsoft.CSharp/4.0.0": {
@@ -14705,7 +14638,6 @@
   "projectFileDependencyGroups": {
     "": [
       "AdDuplexWin10 >= 10.0.1.1",
-      "Microsoft.AdMediator.Universal.AdDuplex >= 2.1.0",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.0.0"
     ],
     "UAP,Version=v10.0": []

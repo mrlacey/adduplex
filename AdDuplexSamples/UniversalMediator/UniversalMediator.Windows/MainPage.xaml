@@ -11,12 +11,10 @@
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
         <Windows81:AdMediatorControl x:Name="AdMediator_6E6F90"
-                                     HorizontalAlignment="Left"
-                                     Height="250"
+                                     HorizontalAlignment="Center"
                                      Id="AdMediator-Id-47FF9738-A111-4436-92E5-FD695A194B64"
-                                     Margin="478,291,0,0"
-                                     VerticalAlignment="Top"
-                                     Width="300"/>
+                                     VerticalAlignment="Center"
+                                     />
 
     </Grid>
 </Page>

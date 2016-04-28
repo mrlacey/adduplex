@@ -4,18 +4,81 @@
     xmlns:local="using:UwpAdMediator"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:adDuplex="using:AdDuplex"
     x:Class="UwpAdMediator.MainPage"
     mc:Ignorable="d">
 
     <Grid>
-        <Universal:AdMediatorControl x:Name="AdControl"
+        <!--<ScrollViewer>-->
+            <StackPanel
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center">
+                <!--Desktop Sizes-->
+                <!--<Rectangle Fill="Red" Height="250" Width="250" />
+                <adDuplex:AdControl Height="250" Width="250" AdUnitId="171823" AppKey="7f8ac748-83ee-4680-96a8-150b97bfbf11" />
+                <Rectangle Fill="Orange" Height="250" Width="300" />
+                <adDuplex:AdControl Height="250" Width="300" AdUnitId="171823" AppKey="7f8ac748-83ee-4680-96a8-150b97bfbf11" />
+                <Rectangle Fill="Yellow" Height="90" Width="728" />
+                <adDuplex:AdControl Height="90" Width="728" AdUnitId="171823" AppKey="7f8ac748-83ee-4680-96a8-150b97bfbf11" />
+                <Rectangle Fill="Green" Height="600" Width="160" />
+                <adDuplex:AdControl Height="600" Width="160" AdUnitId="171823" AppKey="7f8ac748-83ee-4680-96a8-150b97bfbf11" />
+                <Rectangle Fill="Blue" Height="600" Width="300" />
+                <adDuplex:AdControl Height="600" Width="300" AdUnitId="171823" AppKey="7f8ac748-83ee-4680-96a8-150b97bfbf11" />-->
+
+                <!--Mobile Sizes-->
+                <!--<Rectangle Fill="Red" Height="50" Width="300" />
+                <adDuplex:AdControl Height="50" Width="300" AdUnitId="171823" AppKey="7f8ac748-83ee-4680-96a8-150b97bfbf11" />
+                <Rectangle Fill="Yellow" Height="50" Width="320" />
+                <StackPanel Orientation="Horizontal">
+                    <Rectangle Fill="DeepPink" Height="50" Width="20" />
+                    <adDuplex:AdControl Height="50" Width="320" AdUnitId="171823" AppKey="7f8ac748-83ee-4680-96a8-150b97bfbf11" />
+                </StackPanel>
+                <Rectangle Fill="Blue" Height="80" Width="480" />
+                <adDuplex:AdControl Height="80" Width="480" AdUnitId="171823" AppKey="7f8ac748-83ee-4680-96a8-150b97bfbf11" />
+                <Rectangle Fill="Green" Height="100" Width="640" />
+                <adDuplex:AdControl Height="100" Width="640" AdUnitId="171823" AppKey="7f8ac748-83ee-4680-96a8-150b97bfbf11" />-->
+
+                <!--<Universal:AdMediatorControl x:Name="AdControl"
                                      Id="ecba2d7a-f2d9-43bb-ab12-f8c5df303165"
-                                     HorizontalAlignment="Center"
-                                     VerticalAlignment="Center"
+                                     />-->
+                
+                
+                     <!--Desktop Sizes-->
+                <!--<Rectangle Fill="Red" Height="250" Width="250" />
+                <Universal:AdMediatorControl Height="250" Width="250" x:Name="desk1" Id="1cba2d7a-f2d9-43bb-ab12-f8c5df303165" />-->
+                <!--<Rectangle Fill="Orange" Height="250" Width="300" />
+                <Universal:AdMediatorControl Height="250" Width="300" x:Name="desk2" Id="2cba2d7a-f2d9-43bb-ab12-f8c5df303165" />
+                <Rectangle Fill="Yellow" Height="90" Width="728" />
+                <Universal:AdMediatorControl Height="90" Width="728" x:Name="desk3" Id="3cba2d7a-f2d9-43bb-ab12-f8c5df303165" />-->
+                <!--<Rectangle Fill="Green" Height="600" Width="160" />
+                <Universal:AdMediatorControl Height="600" Width="160" x:Name="desk4" Id="4cba2d7a-f2d9-43bb-ab12-f8c5df303165" />-->
+                <!--<Rectangle Fill="Blue" Height="600" Width="300" />-->
+                <Universal:AdMediatorControl  AdSdkEvent="Desk5_OnAdSdkEvent" AdSdkError="Desk5_OnAdSdkError" Width="480" Height="80" AdMediatorFilled="Desk5_OnAdMediatorFilled" AdMediatorError="Desk5_OnAdMediatorError" x:Name="desk5" Id="5cba2d7a-f2d9-43bb-ab12-f8c5df303165" />
+
+                <adduplex:AdControl xmlns:adduplex="using:AdDuplex" Width="480" Height="80" AdUnitId="187627" AppKey="58c61bca-832f-4c71-a6de-2ea987e6109a" />
+                
+                <!--Mobile Sizes-->
+                <!--<Rectangle Fill="Red" Height="50" Width="300" />
+                <Universal:AdMediatorControl Height="50" Width="300" x:Name="mob1" Id="6cba2d7a-f2d9-43bb-ab12-f8c5df303165" />
+                <Rectangle Fill="Yellow" Height="50" Width="320" />
+                <StackPanel Orientation="Horizontal">
+                    <Rectangle Fill="DeepPink" Height="50" Width="20" />
+                    <Universal:AdMediatorControl Height="50" Width="320" x:Name="mob2" Id="7cba2d7a-f2d9-43bb-ab12-f8c5df303165" />
+                </StackPanel>
+                <Rectangle Fill="Blue" Height="80" Width="480" />
+                <Universal:AdMediatorControl Height="80" Width="480" x:Name="mob3" Id="8cba2d7a-f2d9-43bb-ab12-f8c5df303165" />
+                <Rectangle Fill="Green" Height="100" Width="640" />
+                <Universal:AdMediatorControl Height="100" Width="640" x:Name="mob4" Id="9cba2d7a-f2d9-43bb-ab12-f8c5df303165" />-->
+                
+                
+                
+                
+                <!--<Universal:AdMediatorControl x:Name="AdControl"
+                                     Id="ecba2d7a-f2d9-43bb-ab12-f8c5df303165"
                                      Height="90"
                                      Width="728" />
 
-        <VisualStateManager.VisualStateGroups>
+            <VisualStateManager.VisualStateGroups>
             <VisualStateGroup x:Name="VisualStateGroup">
                 <VisualState x:Name="Mobile">
                     <VisualState.StateTriggers>
@@ -36,6 +99,8 @@
                     </VisualState.Setters>
                 </VisualState>
             </VisualStateGroup>
-        </VisualStateManager.VisualStateGroups>
+        </VisualStateManager.VisualStateGroups>-->
+            </StackPanel>
+        <!--</ScrollViewer>-->
     </Grid>
 </Page>

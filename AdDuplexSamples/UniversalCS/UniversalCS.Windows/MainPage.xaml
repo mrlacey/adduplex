@@ -10,9 +10,14 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <xaml:AdControl x:Name="adDuplexAd"
-                        AdUnitId="YOUR_AppId_HERE" />
+        <!--<xaml:AdControl x:Name="adDuplexAd"
+                        AdUnitId="YOUR_AppId_HERE" />-->
 
+<xaml:AdControl AdUnitId="168151" AppKey="08b847b3-8f60-4f8f-8939-d6834cdec656" Size="500x130"/>
+        
+        
+        
+        
         <!-- default = 250x250 -->
         <!-- 160x600, 250x125, 250x250, 292x60, 300x250, 500x130 and 728x90. -->
     </Grid>
